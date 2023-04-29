@@ -17,7 +17,7 @@ GIT_BRANCH=${GIT_BRANCH:-"future3/main"}
 # Constants
 GIT_REPO_NAME="RPi-Jukebox-RFID"
 GIT_URL="https://github.com/${GIT_USER}/${GIT_REPO_NAME}"
-HOME_PATH="/home/pi"
+HOME_PATH="/home/phoniebox"
 INSTALLATION_PATH="${HOME_PATH}/${GIT_REPO_NAME}"
 INSTALL_ID=$(date +%s)
 
